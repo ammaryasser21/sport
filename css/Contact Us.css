@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1F1F1F;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #EBEBEB;
+    text-align: right;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 20px 100px ;
+    border-style: solid;
+    border-color:#1F1F1F #1F1F1F #353535 #1F1F1F;
+}
+
+.logo {
+    float: left;
+}
+
+.p1 {
+    display: flex;
+    padding: 100px 150px;
+    align-items: center;
+}
+
+.p1 h2 {
+    color:#353535;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.p1 h2 span {
+    color:   #EBEBEB;
+    font-size: 1.2em ;
+    font-weight: 300;
+}
+
+.p1 h3 {
+    color:#353535;
+    font-size: 2.6em;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social a {
+    color:   #EBEBEB;
+    padding-right: 40px;
+    font-size: 1.8em;
+    transition: .4s ease;
+}
+
+.social a:hover {
+    color: red;  
+}
+
+.sign h4 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #888;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.sign {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    margin-left: 300px;
+    padding :15px;
+    border: #888 2px solid;
+    border-radius: 10px; 
+}
+
+#txt-box {
+    width: 225px;
+    border-bottom: 2px solid #949494 !important;
+    margin-bottom: 20px;
+}
+
+#txt-box input {
+    
+    width: 279px;
+    background: transparent;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: white;
+    outline: none;
+    transition: 0.4s;
+}
+
+label {
+    color: #888;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #949494;
+    color: #888;
+    font-weight: 600;
+    width: 100px;
+    transition: 0.4s;
+}
+
+.button :hover {
+    background-color:#EBEBEB;
+    color: #888;
+  }
+
+

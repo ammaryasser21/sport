@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1F1F1F;
+    min-height: 100vh;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius:  3px  ;
+}
+  
+::-webkit-scrollbar-track {
+background: #353535; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #FE0002; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+background: #990000; 
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: 5.5em;
+    font-weight: 400;
+    font-family: Poppins, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    color: transparent;
+    -webkit-text-stroke: 5px #1F1F1F;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.vid video {
+    width: 100%;
+}
+
+.p {
+    padding: 0px 100px;
+    font-size: 4.2em;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+}
+
+.pics {
+    float: rights;
+
+}
+
+.pics1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pics2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pics3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: transparent;
+    overflow: hidden;
+    min-height: 17em;
+    width: 26em;
+    margin: 10px;
+    box-shadow: 0px 5px 25px rgba(1, 1, 1, 50%);
+}
+
+.pic img {
+    width: 100%;
+}
+
+.info {
+    color: #EBEBEB;
+    font-style: bold;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.more a {
+    text-decoration: none;
+    float: right;
+    color: #EBEBEB;
+    padding: 15px;
+    transition: .6s;
+}
+
+.more a:hover {
+    color: red;
+}
+
+.logo {
+
+    padding: 100px;
+    position: absolute;
+    right: 30%;
+}
+
+.terms {
+
+    padding: 110px;
+    position: absolute;
+    right: 42%;
+}
+
+.terms a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+span{
+    font-size: medium;
+}
