@@ -1,0 +1,80 @@
+body {
+  background-color: #1F1F1F;
+  font-family: "Titillium Web", sans-serif;
+}
+.p1 h1 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 5.5em;
+  font-weight: 400;
+  font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #1F1F1F;
+  -webkit-text-stroke: 1px #949494;
+}
+
+.p1 h2 {
+  position: absolute;
+  top: 25%;
+  right: 31%;
+  color: #949494;
+  font-size: 2em;
+}
+
+
+
+.form-control {
+  color: #fff !important;
+}
+.form-control:focus {
+  background-color: #1F1F1F;
+}
+input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.inputForm h1 {
+  
+    font-weight: 400;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1F1F1F;
+    -webkit-text-stroke: 1px #949494;
+  padding: 10px;
+}
+.inputForm input {
+  background-color: transparent;
+}
+.inputForm a {
+  text-decoration: none;
+  color: #fff;
+}
+/* ?css about Home page */
+.home-massage {
+  
+ 
+  padding: 48px;
+}
+.navbar{
+  background-color: #353535;
+  
+}
+
+.navbar-light .navbar-brand{
+  font-weight: 400;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1F1F1F;
+    -webkit-text-stroke: 1px #949494;
+}
+
+.btn-outline-warning {
+  color: rgba(255,255,255,.5);
+}
+.btn-outline-warning:hover{
+  color: #fff;
+}
+.link
+{
+  color:#888;
+}
+.link :hover
+{
+  color: red;
+}

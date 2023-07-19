@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#000000">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="login system by monitor/css/bootstrap.min.css">
+<link rel="stylesheet" href="Home.css">
+<title>C For Clothes</title>
+</head>
+<body>
+<header id="navbar">
+   <div class="p2"> <a href="#Nike" class="logo"><img src="img\logo_1.png" alt=""></a>
+    </div><div class="p3"><nav class="navigation">
+        <a href="./Shop.html">Men</a>
+        <a href="./Shop.html">Kids</a>
+    </nav></div>
+		<div class="p1"><a href="login system by monitor/index.html" class="btn btn-outline-danger mx-4" id="signin" ><i class="fas fa-sign-out-alt"></i></a><a class="btn btn-outline-success" href="login system by monitor/index.html" id="logOut">welcome<span id="massage"></span></a></div>
+</header>
+
+    <section class="main" id="home">
+        <div class="logo-search">
+        <div class="air-jordan-pic"><img src="img\air-jordan.png" alt=""></div>
+        <div id="searchbox"> 
+            <input placeholder=" SEARCH" type="text">
+            <button type="submit" class="searchbutton"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="left-text">
+        <h1>the last<br>dance</h1>
+        <h2>Discover the Story<br> Behind the Air Jordan Collection</h2>
+    </div>
+        <div class="shoe"><img src="img/airjordan.webp" alt=""></div>
+        <h3>air jordan <span>1</span></h3>
+        <h4>01</h4>
+    </section>
+
+    <section class="nav-shop">
+        <h5>What are you looking for?</h5>
+        <h6>Street shredder? Sportster? Cruiser?<br>Whatever kind of Air Jordan lifts your soul</h6>
+        <button class="shop"><a href="file/Products.html">Shop</a></button> 
+    </section>
+
+    <section class="End-13x">
+        <a href="Location.html">find a store</a>
+        <div class="About-us-menu">
+        <a href="About_Us/about_us.html">About C For Clothes</a>
+        <div class="menu-13x">
+        <a href="About_Us/about_us.html">News</a>
+        <a href="About_Us/about_us.html">careers</a>
+        </div>
+        </div>
+        <div class="End-13x-icons">
+            <a href="https://twitter.com/Nike"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/nike"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/user/nike"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/nike/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <section class="CR">
+        <h13>© 2022 C For Clothes, Inc. All Rights Reserved</h13>
+        <div class="TPCP">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy & Cookie Policy</a>
+        </div>
+    </section>
+    <script src="js/home.js"></script>
+	</body>
+
+    
+<script>
+    var massage = document.getElementById("massage");
+var index=Number(localStorage.getItem("indexArr"));
+var data =JSON.parse(localStorage.getItem("parsonalData"));
+massage.innerHTML=` ${data[index].name}`;
+
+
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-100px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+</script>
+
+    
+
+</html>
+
